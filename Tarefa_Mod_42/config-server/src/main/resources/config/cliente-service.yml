@@ -1,0 +1,11 @@
+server:
+  wait-time-in-ms-when-sync-empty: 3000
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@127.0.0.1:27017/cliente?authSource=admin&retryWrites=true&w=majority
+      database: cliente
+      auto-index-creation: true
+
+application-version: 1.0
